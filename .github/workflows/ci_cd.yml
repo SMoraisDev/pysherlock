@@ -19,7 +19,7 @@ permissions: {}
 jobs:
   style:
     name: Code style
-    runs-on: runs-on: [ self-hosted, pysherlock ]
+    runs-on: [ self-hosted, pysherlock ]
     steps:
       - name: PyAnsys code style checks
         uses: ansys/actions/code-style@7d55ff0b9f67c77dae50a286d711ee1ae27b0a25 # v10.2.12
